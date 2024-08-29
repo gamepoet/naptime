@@ -125,9 +125,9 @@ fn run_loop_proc(
     );
 
     // drive the run loop, this won't return until CFRunLoopStop() is called when Notifier is dropped
-    println!("starting run loop");
+    trace!("starting run loop");
     CFRunLoopRun();
-    println!("loop done!");
+    trace!("loop done!");
 
     // unregister for power events
     CFRunLoopRemoveSource(
