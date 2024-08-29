@@ -5,9 +5,11 @@ edition = "2021"
 authors = ["Ben Scott <gamepoet@gmail.com>"]
 rust-version = "1.70"
 license = "MIT"
+repository = "https://github.com/gamepoet/naptime"
 description = """
 Detect sleep and wake notifications from the OS.
 """
+keywords = ["sleep", "suspend", "wait"]
 
 [dependencies]
 thiserror = '1.0.63'
