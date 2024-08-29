@@ -1,6 +1,6 @@
 [package]
 name = "naptime"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2021"
 authors = ["Ben Scott <gamepoet@gmail.com>"]
 rust-version = "1.70"
