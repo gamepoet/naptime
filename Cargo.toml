@@ -1,0 +1,18 @@
+[package]
+name = "naptime"
+version = "0.0.1"
+edition = "2021"
+authors = ["Ben Scott <gamepoet@gmail.com>"]
+rust-version = "1.70"
+license = "MIT"
+description = """
+Detect sleep and wake notifications from the OS.
+"""
+
+[dependencies]
+thiserror = '1.0.63'
+tracing = '0.1.40'
+
+[dev-dependencies]
+tokio = { version = "1.39", features = ["rt-multi-thread", "macros", "signal"] }
+tracing-subscriber = { version = "0.3.18", features = ["fmt", "env-filter"] }
